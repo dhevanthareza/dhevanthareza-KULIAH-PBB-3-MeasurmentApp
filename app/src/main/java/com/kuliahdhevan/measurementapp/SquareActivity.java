@@ -26,7 +26,7 @@ public class SquareActivity extends AppCompatActivity {
         double length = Double.parseDouble(lengthEdt.getText().toString());
         double width = Double.parseDouble(widthEdt.getText().toString());
         double area = length * width;
-        double perimeter = (length * 2) + (area * 2);
+        double perimeter = (length * 2) + (width * 2);
         areaResultLabel.setText(Double.toString(area));
         perimeterResultLabel.setText(Double.toString(perimeter));
     }

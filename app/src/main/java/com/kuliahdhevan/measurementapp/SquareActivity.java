@@ -16,8 +16,8 @@ public class SquareActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_square);
-        lengthEdt = findViewById(R.id.diameterEdt);
-        widthEdt = findViewById(R.id.heightEdt);
+        lengthEdt = findViewById(R.id.lengthEdt);
+        widthEdt = findViewById(R.id.widthEdt);
         areaResultLabel = findViewById(R.id.areaResultLabel);
         perimeterResultLabel = findViewById(R.id.perimeterResultLabel);
     }

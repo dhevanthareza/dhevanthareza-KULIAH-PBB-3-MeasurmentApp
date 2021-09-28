@@ -16,8 +16,8 @@ public class TriangleActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_triangle);
-        lengthEdt = findViewById(R.id.diameterEdt);
-        heightEdt = findViewById(R.id.heightEdt);
+        lengthEdt = findViewById(R.id.lengthEdt);
+        heightEdt = findViewById(R.id.widthEdt);
         thirdSideEdt = findViewById(R.id.thirdSideEdt);
         areaResultLabel = findViewById(R.id.areaResultLabel);
         perimeterResultLabel = findViewById(R.id.perimeterResultLabel);

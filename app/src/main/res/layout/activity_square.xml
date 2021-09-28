@@ -7,7 +7,7 @@
     tools:context=".SquareActivity">
 
     <EditText
-        android:id="@+id/diameterEdt"
+        android:id="@+id/lengthEdt"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
@@ -17,11 +17,11 @@
         android:inputType="numberDecimal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.542"
-        app:layout_constraintStart_toEndOf="@+id/diameterText"
+        app:layout_constraintStart_toEndOf="@+id/lengthText"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/heightEdt"
+        android:id="@+id/widthEdt"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
@@ -31,8 +31,8 @@
         android:inputType="numberDecimal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/heightText"
-        app:layout_constraintTop_toBottomOf="@+id/diameterEdt" />
+        app:layout_constraintStart_toEndOf="@+id/widthText"
+        app:layout_constraintTop_toBottomOf="@+id/lengthEdt" />
 
     <Button
         android:id="@+id/calculateBtn"
@@ -44,11 +44,11 @@
         android:text="HITUNG"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/heightEdt"
+        app:layout_constraintTop_toBottomOf="@+id/widthEdt"
         android:onClick="handleCalculateSquareButton"/>
 
     <TextView
-        android:id="@+id/diameterText"
+        android:id="@+id/lengthText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -58,14 +58,14 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/heightText"
+        android:id="@+id/widthText"
         android:layout_width="55dp"
         android:layout_height="17dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="44dp"
         android:text="Lebar"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/diameterText" />
+        app:layout_constraintTop_toBottomOf="@+id/lengthText" />
 
     <TextView
         android:id="@+id/areaLabel"

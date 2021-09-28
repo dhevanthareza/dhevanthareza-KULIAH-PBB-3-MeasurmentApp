@@ -7,7 +7,7 @@
     tools:context=".CircleActivity">
 
     <EditText
-        android:id="@+id/diameterEdt"
+        android:id="@+id/lengthEdt"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
@@ -17,7 +17,7 @@
         android:inputType="numberDecimal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.542"
-        app:layout_constraintStart_toEndOf="@+id/diameterText"
+        app:layout_constraintStart_toEndOf="@+id/lengthText"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
@@ -31,10 +31,10 @@
         android:text="HITUNG"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/diameterEdt" />
+        app:layout_constraintTop_toBottomOf="@+id/lengthEdt" />
 
     <TextView
-        android:id="@+id/diameterText"
+        android:id="@+id/lengthText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"

@@ -14,7 +14,7 @@ public class CircleActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_circle);
-        diameterEdt = findViewById(R.id.diameterEdt);
+        diameterEdt = findViewById(R.id.lengthEdt);
         areaResultLabel = findViewById(R.id.areaResultLabel);
         perimeterResultLabel = findViewById(R.id.perimeterResultLabel);
     }
